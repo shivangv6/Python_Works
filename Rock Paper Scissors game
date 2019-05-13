@@ -1,0 +1,37 @@
+'''
+Two-player Rock-Paper-Scissors game. ( Ask for player plays, compare them, print out a message of congratulations to the winner, and ask if the players want to start a new game)
+
+Remember the rules:
+
+Rock beats scissors
+Scissors beats paper
+Paper beats rock
+'''
+
+A = input('choose one: Rock, Paper, Scissors')
+B = input('choose one: Rock, Paper, Scissors')
+
+while True:
+  if A==B:
+    print('Match is draw')
+    A = input('choose one: Rock, Paper, Scissors')
+    B = input('choose one: Rock, Paper, Scissors')
+  if A!=B:
+    if A == 'Rock' and B == 'Paper':
+      print("Congratulations B, you won.\n Wonna play new match")
+      break
+    if A == 'Rock' and B == 'Scissors':
+      print("Congratulations A, you won.\n Wonna play new match")
+      break
+    if A == 'Paper' and B == 'Scissors':
+      print("Congratulations B, you won.\n Wonna play new match")
+      break
+    if A == 'Paper' and B == 'Rock':
+      print("Congratulations A, you won.\n Wonna play new match")
+      break
+    if A == 'Scissors' and B == 'Paper':
+      print("Congratulations A, you won.\n Wonna play new match")
+      break
+    if A == 'Scissors' and B == 'Rock':
+      print("Congratulations B, you won.\n Wonna play new match")
+      break
