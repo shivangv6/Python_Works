@@ -19,7 +19,6 @@ import random
 cow=0
 n = 0
 rand = str(random.randint(1000,10000))
-print(rand)
 while cow<4:
   
   user = input('enter four digit no.')
