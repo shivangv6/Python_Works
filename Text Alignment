@@ -1,0 +1,25 @@
+# H text Alignment
+
+for i in range(6):
+  a = ('H'*3).ljust(10," ")+("H"*3).rjust(10," ")
+  print(a)
+
+for j in range(4):
+  print('H'*20)
+
+for i in range(6):
+  a = ('H'*3).ljust(10," ")+("H"*3).rjust(10," ")
+  print(a)
+  
+  
+  
+# I text Alignment
+for i in range(3):
+  print('I'*20)
+
+for j in range(10):
+  a = ("I"*5).center(20)
+  print(a)
+
+for i in range(3):
+  print('I'*20)
