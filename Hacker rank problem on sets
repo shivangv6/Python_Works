@@ -25,7 +25,7 @@ cc = bb.split()
 set2 = set(cc)
 e = set1.symmetric_difference(set2)
 f = list(e)
-f = list(map(int,f))
-f = sorted(f)
-for i in f:
+g = list(map(int,f))
+h = sorted(f)
+for i in h:
     print(i)
