@@ -1,7 +1,7 @@
 '''The Fibonacci seqence is a sequence of numbers where the next number in the sequence is 
 the sum of the previous two numbers in the sequence.The sequence looks like this: 1, 1, 2, 3, 5, 8, 13, …)'''
 
-#Fibonacci series
+#Fibonacci series:-
 def gen_fib():
     count = int(input("How many fibonacci numbers would you like to generate? "))
     i = 1
@@ -21,7 +21,7 @@ def gen_fib():
  
  
  
- # method to get last fibonacci number
+ # Method to get last fibonacci number.
 a = int(input("How many fibonacci numbers would you like to generate? "))
 rand=[0,1]
 if a<3:
@@ -34,7 +34,7 @@ else:
     
     
     
- #Method to get Last digit of a large fibonocci number
+ #Method to get Last digit of a large fibonocci number.
  a = int(input("How many fibonacci numbers would you like to generate? "))
 rand=[0,1]
 if a==0:
