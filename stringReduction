@@ -1,0 +1,23 @@
+def stringReduction(n,input_string):
+  input_list = []
+  for i in input_string:
+     input_list.append(i)
+
+  temp_list = []
+  for i in range(n):
+    input_list.pop(i)
+    temp_str = "".join(input_list)
+    temp_list.append(temp_str)
+    input_list = []
+    for j in input_string:
+     input_list.append(j)
+  
+
+  ans = sorted(temp_list,reverse = True)
+  return ans[0]
+
+n = int(input("What is the length of input string?"))
+input_string = input("Type your string.")
+
+qwerty = stringReduction(n,input_string)
+print(qwerty)
